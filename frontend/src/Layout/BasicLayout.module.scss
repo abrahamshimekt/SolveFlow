@@ -1,0 +1,81 @@
+.basic_layout_container {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+
+  .layout_container {
+    width: 100%;
+    height: 100%;
+
+    .layout_aside_container {
+      position: absolute;
+      height: 100%;
+      z-index: 11;
+    }
+
+    .menu_container {
+      padding-top: 8.5rem;
+    }
+
+    .chat_menu_container {
+      background-color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+
+      .auto_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+        margin: auto;
+
+        ul {
+          background: none;
+        }
+      }
+    }
+
+    .children_container {
+      width: 100%;
+      height: 100%;
+      padding: 1rem;
+      max-width: 1440px;
+      margin: auto;
+    }
+  }
+}
+
+.buttonGroup {
+  padding: 1rem;
+  margin-top: 16px;
+  display: flex;
+  position: sticky;
+  gap: 8px;
+}
+
+.customButton {
+  background-color: #1890ff;
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: #40a9ff;
+    color: white;
+  }
+}
+
+.libraryTitle {
+  padding: 1rem;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1890ff;
+  margin-left: 1rem;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}

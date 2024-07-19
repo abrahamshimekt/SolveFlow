@@ -1,0 +1,27 @@
+.problems_container {
+  margin-top: 2rem;
+  .table_container {
+    overflow-x: auto;
+    .paragraph1 {
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .paragraph2 {
+      font-size: 14px;
+      white-space: nowrap;
+    }
+    .paragraph3 {
+      font-size: 14px;
+      white-space: nowrap;
+    }
+  }
+}
+
+.add_problem_container {
+  h3 {
+    margin-bottom: 1rem;
+  }
+  .input_container {
+    margin-bottom: 1rem;
+  }
+}

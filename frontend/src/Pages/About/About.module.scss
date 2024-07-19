@@ -1,0 +1,14 @@
+.about_container {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  .paragraph {
+    font-size: 18px;
+  }
+  .button_container {
+    margin-top: 1rem;
+  }
+}
