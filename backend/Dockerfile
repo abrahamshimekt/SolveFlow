@@ -25,13 +25,4 @@ RUN dot -v  # This will pr
 WORKDIR /app
 COPY package.json ./
 COPY ./ ./
-ENV MONGO_URI=mongodb://mongo:ZwfMLhpmDIblywIJKwLxeVhBBJPBPdSi@roundhouse.proxy.rlwy.net:23413
-ENV CLIENT_ID=754753154937-i1gtrbnq1ppbvtcnn38qgqn2egsvg0v1.apps.googleusercontent.com
-ENV CLIENT_SECRET=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
-ENV SERVER_URL=https://autobamvp-backend-production.up.railway.app
-ENV JWT_SECRET=22a945e2291ffecfe3e53e85d9ee82299d96555ad7dc881e741d703fde128e73
-ENV PORT=8000
-ENV CLIENT_URL=https://autobamvp-frontend-production.up.railway.app
-ENV OPEN_AI_API_KEY=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
-RUN npm i
-CMD npm run start
+
